@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mkgzqdhangman.GameController">
+   <children>
+      <Label layoutX="277.0" layoutY="42.0" text="Player 2: Guess" />
+      <Button layoutX="236.0" layoutY="229.0" mnemonicParsing="false" onAction="#goBackToPage1" text="Play Another Game" />
+      <TextField fx:id="textField" layoutX="217.0" layoutY="83.0" />
+      <Button id="Guess" layoutX="433.0" layoutY="83.0" mnemonicParsing="false" onAction="#guessLetter" text="Guess" />
+      <Label fx:id="gameBoard" contentDisplay="CENTER" layoutX="237.0" layoutY="165.0" lineSpacing="10.0" text="gameBoard">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Label fx:id="wrongGuess" layoutX="59.0" layoutY="278.0" text="Letters Wrong:" />
+      <ImageView fx:id="hangmanImage" fitHeight="128.0" fitWidth="170.0" layoutX="20.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hang_1.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreBoard" layoutX="253.0" layoutY="322.0" text="Player 1:  Player 2:" />
+      <Label layoutX="268.0" layoutY="292.0" text="Total Victories" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mkgzqdhangman.Player1Controller">
+   <children>
+      <Label layoutX="144.0" layoutY="58.0" text="Gambino's Hangman" textFill="#c92121">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Button layoutX="204.0" layoutY="147.0" mnemonicParsing="false" onAction="#goToPage2" text="Begin Game" />
+      <Button layoutX="346.0" layoutY="147.0" mnemonicParsing="false" onAction="#aboutPage" text="About" />
+   </children>
+</AnchorPane>
